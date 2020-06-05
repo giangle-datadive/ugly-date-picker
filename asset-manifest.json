@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ugly-date-picker/static/css/main.fe7a0fc9.chunk.css",
+    "main.js": "/ugly-date-picker/static/js/main.deb514f5.chunk.js",
+    "main.js.map": "/ugly-date-picker/static/js/main.deb514f5.chunk.js.map",
+    "runtime-main.js": "/ugly-date-picker/static/js/runtime-main.27d6b231.js",
+    "runtime-main.js.map": "/ugly-date-picker/static/js/runtime-main.27d6b231.js.map",
+    "static/js/2.bcf8c746.chunk.js": "/ugly-date-picker/static/js/2.bcf8c746.chunk.js",
+    "static/js/2.bcf8c746.chunk.js.map": "/ugly-date-picker/static/js/2.bcf8c746.chunk.js.map",
+    "index.html": "/ugly-date-picker/index.html",
+    "precache-manifest.fc8c51c1804fd8e9f0b2a0cc6ed34766.js": "/ugly-date-picker/precache-manifest.fc8c51c1804fd8e9f0b2a0cc6ed34766.js",
+    "service-worker.js": "/ugly-date-picker/service-worker.js",
+    "static/css/main.fe7a0fc9.chunk.css.map": "/ugly-date-picker/static/css/main.fe7a0fc9.chunk.css.map",
+    "static/js/2.bcf8c746.chunk.js.LICENSE.txt": "/ugly-date-picker/static/js/2.bcf8c746.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27d6b231.js",
+    "static/js/2.bcf8c746.chunk.js",
+    "static/css/main.fe7a0fc9.chunk.css",
+    "static/js/main.deb514f5.chunk.js"
+  ]
+}
