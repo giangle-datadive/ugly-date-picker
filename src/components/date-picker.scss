@@ -1,0 +1,53 @@
+.date-picker {
+  width: 220px;
+  border: 1px solid red;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+
+    .control {
+      cursor: pointer;
+    }
+  }
+
+  .day-of-week {
+    display: flex;
+    flex-direction: row;
+    >div {
+      color: red;
+      flex: 1;
+    }
+  }
+
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+
+    .day {
+      width: 31px;
+      height: 31px;
+      cursor: pointer;
+      color: #a59d9d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2px;
+
+      &:hover {
+        background-color: red;
+      }
+
+      &.current-date {
+        background-color: red;
+      }
+
+      &.current-month {
+        color: #282c34;
+      }
+    }
+  }
+}
