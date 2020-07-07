@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import "nes.css/css/nes.min.css";
 import './date-picker.scss'
 
 const MAX_DAYS = 35
@@ -9,7 +10,7 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
 
 const getDaysOfMonth = (month) => {
   const days = []
-  for(let i = 1; i< MAX_DAYS; i++) {
+  for(let i = 1; i<= MAX_DAYS; i++) {
     const now = new Date()
     now.setMonth(month)
     now.setDate(i)
@@ -92,7 +93,7 @@ const DatePicker = () => {
           const isCurrentDate = item.getMonth() === now.getMonth() && item.getDate() === now.getDate()
 
           return (
-            <div key={index} className={`day ${className} ${isCurrentDate ? 'current-date' : ''}`}>{item.getDate()}</div>
+            <div key={index} className={`nes-btn day ${className} ${isCurrentDate ? 'current-date' : ''}`}>{item.getDate()}</div>
           )
         })}
       </div>
