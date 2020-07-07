@@ -44,6 +44,14 @@
       &.current-month {
         color: #282c34;
       }
+
+      &:hover {
+        background-color: #92cc41;
+
+        &:after {
+          box-shadow: inset -4px -4px #4aa52e;
+        }
+      }
     }
   }
 }

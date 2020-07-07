@@ -93,7 +93,7 @@ const DatePicker = () => {
           const isCurrentDate = item.getMonth() === now.getMonth() && item.getDate() === now.getDate()
 
           return (
-            <div key={index} className={`nes-btn day ${className} ${isCurrentDate ? 'current-date' : ''}`}>{item.getDate()}</div>
+            <div key={index} className={`nes-btn day ${className} ${isCurrentDate ? 'is-success' : ''}`}>{item.getDate()}</div>
           )
         })}
       </div>
