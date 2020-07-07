@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import "nes.css/css/nes.min.css";
-import './date-picker.scss'
 
 const MAX_DAYS = 35
 
@@ -93,7 +91,7 @@ const DatePicker = () => {
           const isCurrentDate = item.getMonth() === now.getMonth() && item.getDate() === now.getDate()
 
           return (
-            <div key={index} className={`nes-btn day ${className} ${isCurrentDate ? 'is-success' : ''}`}>{item.getDate()}</div>
+            <div key={index} className={`nes-btn day ${className} ${isCurrentDate ? 'is-primary' : ''}`}>{item.getDate()}</div>
           )
         })}
       </div>
