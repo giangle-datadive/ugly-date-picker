@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import PropTypes from "prop-types";
 import Input from "./Input";
 import Calendar from "./Calendar";
@@ -6,6 +6,7 @@ import "nes.css/css/nes.min.css";
 import "./date-picker.scss";
 
 const NesDatePicker = ({ currentDate }) => {
+  const inputRef = useRef(null);
   const [isShowCalendar, setIsShowCalendar] = useState(false);
   const [date, setDate] = useState(currentDate);
 
@@ -24,9 +25,15 @@ const NesDatePicker = ({ currentDate }) => {
 
   return (
     <div className="nes-date-picker">
-      <Input value={date} onFocus={onFocusInput} />
+      <div ref={inputRef}>
+        <Input value={date} onFocus={onFocusInput} />
+      </div>
       {isShowCalendar && (
-        <Calendar hideCalendar={hideCalendar} onPickDate={onPickDate} />
+        <Calendar
+          inputRef={inputRef}
+          hideCalendar={hideCalendar}
+          onPickDate={onPickDate}
+        />
       )}
     </div>
   );

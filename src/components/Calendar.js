@@ -59,23 +59,27 @@ const getDays = (month) => {
   return days.slice(0, MAX_DAYS);
 };
 
-const Calendar = ({ onPickDate, hideCalendar }) => {
+const Calendar = ({ onPickDate, hideCalendar, inputRef }) => {
   const [date, setDate] = useState(new Date());
   const [days, setDays] = useState(getDays(date.getMonth()));
-  const calendarRef = useRef(null)
+  const calendarRef = useRef(null);
   const now = new Date();
 
   useEffect(() => {
     const onMouseUp = (e) => {
-      const isContain = calendarRef.current && calendarRef.current.contains(e.target)
-      if(!isContain) {
-        hideCalendar()
+      const isContain =
+        calendarRef.current && calendarRef.current.contains(e.target);
+      const isContainInput =
+        inputRef.current && inputRef.current.contains(e.target);
+      if (isContain || isContainInput) {
+        return;
       }
-    }
-    window.addEventListener('mouseup', onMouseUp)
+      hideCalendar();
+    };
+    window.addEventListener("mouseup", onMouseUp);
 
-    return () => window.removeEventListener('mouseup', onMouseUp)
-  }, [])
+    return () => window.removeEventListener("mouseup", onMouseUp);
+  }, []);
 
   useEffect(() => {
     setDays(getDays(date.getMonth()));
@@ -142,6 +146,7 @@ const Calendar = ({ onPickDate, hideCalendar }) => {
 Calendar.propTypes = {
   onPickDate: PropTypes.func,
   hideCalendar: PropTypes.func,
+  inputRef: PropTypes.any,
 };
 
 export default Calendar;
