@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ugly-date-picker/static/css/main.5e61df9c.chunk.css",
-    "main.js": "/ugly-date-picker/static/js/main.03e8d9e4.chunk.js",
-    "main.js.map": "/ugly-date-picker/static/js/main.03e8d9e4.chunk.js.map",
+    "main.css": "/ugly-date-picker/static/css/main.80a22f19.chunk.css",
+    "main.js": "/ugly-date-picker/static/js/main.39d10ac0.chunk.js",
+    "main.js.map": "/ugly-date-picker/static/js/main.39d10ac0.chunk.js.map",
     "runtime-main.js": "/ugly-date-picker/static/js/runtime-main.1ef97127.js",
     "runtime-main.js.map": "/ugly-date-picker/static/js/runtime-main.1ef97127.js.map",
     "static/css/2.87d4210f.chunk.css": "/ugly-date-picker/static/css/2.87d4210f.chunk.css",
     "static/js/2.f7fc9feb.chunk.js": "/ugly-date-picker/static/js/2.f7fc9feb.chunk.js",
     "static/js/2.f7fc9feb.chunk.js.map": "/ugly-date-picker/static/js/2.f7fc9feb.chunk.js.map",
     "index.html": "/ugly-date-picker/index.html",
-    "precache-manifest.c71dd6fce344f879555f7d181f856aa1.js": "/ugly-date-picker/precache-manifest.c71dd6fce344f879555f7d181f856aa1.js",
+    "precache-manifest.d727034dd4be3ab371b8c6e1b4e34f17.js": "/ugly-date-picker/precache-manifest.d727034dd4be3ab371b8c6e1b4e34f17.js",
     "service-worker.js": "/ugly-date-picker/service-worker.js",
     "static/css/2.87d4210f.chunk.css.map": "/ugly-date-picker/static/css/2.87d4210f.chunk.css.map",
-    "static/css/main.5e61df9c.chunk.css.map": "/ugly-date-picker/static/css/main.5e61df9c.chunk.css.map",
+    "static/css/main.80a22f19.chunk.css.map": "/ugly-date-picker/static/css/main.80a22f19.chunk.css.map",
     "static/js/2.f7fc9feb.chunk.js.LICENSE.txt": "/ugly-date-picker/static/js/2.f7fc9feb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1ef97127.js",
     "static/css/2.87d4210f.chunk.css",
     "static/js/2.f7fc9feb.chunk.js",
-    "static/css/main.5e61df9c.chunk.css",
-    "static/js/main.03e8d9e4.chunk.js"
+    "static/css/main.80a22f19.chunk.css",
+    "static/js/main.39d10ac0.chunk.js"
   ]
 }

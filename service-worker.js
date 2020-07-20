@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ugly-date-picker/precache-manifest.c71dd6fce344f879555f7d181f856aa1.js"
+  "/ugly-date-picker/precache-manifest.d727034dd4be3ab371b8c6e1b4e34f17.js"
 );
 
 self.addEventListener('message', (event) => {

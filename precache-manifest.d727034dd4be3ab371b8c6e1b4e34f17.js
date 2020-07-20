@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a19491ee7539ece42dbc1fb060f6ee90",
+    "revision": "8ac87cd4b4554b656c871bc9a9530451",
     "url": "/ugly-date-picker/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ugly-date-picker/static/css/2.87d4210f.chunk.css"
   },
   {
-    "revision": "ea3fe7dfc75fd6672643",
-    "url": "/ugly-date-picker/static/css/main.5e61df9c.chunk.css"
+    "revision": "32724fecd8957afae3cd",
+    "url": "/ugly-date-picker/static/css/main.80a22f19.chunk.css"
   },
   {
     "revision": "e3389ac9d3bee0f2fbd9",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ugly-date-picker/static/js/2.f7fc9feb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea3fe7dfc75fd6672643",
-    "url": "/ugly-date-picker/static/js/main.03e8d9e4.chunk.js"
+    "revision": "32724fecd8957afae3cd",
+    "url": "/ugly-date-picker/static/js/main.39d10ac0.chunk.js"
   },
   {
     "revision": "483ad88256759e409991",
